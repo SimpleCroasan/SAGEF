@@ -16,7 +16,7 @@ public class UserController {
     private UserManagementService userManagementService;
 
     @Autowired
-    public void serUserManagementService(UserManagementService userManagementService) {
+    public void setUserManagementService(UserManagementService userManagementService) {
         this.userManagementService = userManagementService;
     }
 
